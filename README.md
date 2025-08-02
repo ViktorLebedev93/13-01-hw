@@ -45,37 +45,44 @@
 
 ### Решение 1
 Сканирование машины выявило следующие открытые сетевые службы
+
 <img src="img/img1.jpg">
+
 Ответьте на следующие вопросы:
+
 Какие сетевые службы в ней разрешены?
 
-FTP (vsftpd 2.3.4)
-SSH (OpenSSH 4.7p1)
-Telnet (Linux telnetd)
-SMTP (Postfix smtpd)
-DNS (ISC BIND 9.4.2)
-HTTP (Apache httpd 2.2.8)
-RPC (rpcbind 2)
-NetBIOS (Samba smbd 3.X - 4.X)
-Exec (netkit-rsh rexecd)
-Java RMI (GNU Classpath grmiregistry)
-Bind Shell (Metasploitable root shell)
-NFS (2-4)
-FTP (ProFTPD 1.3.1)
-MySQL (MySQL 5.0.51a)
-PostgreSQL (PostgreSQL 8.3.0 - 8.3.7)
-VNC (protocol 3.3)
-X11 (access denied)
-IRC (UnrealIRCd)
-AJP (Apache Jserv Protocol v1.3)
-HTTP (Apache Tomcat/Coyote JSP engine 1.1)
+   - FTP (vsftpd 2.3.4)
+   - SSH (OpenSSH 4.7p1)
+   - Telnet (Linux telnetd)
+   - SMTP (Postfix smtpd)
+   - DNS (ISC BIND 9.4.2)
+   - HTTP (Apache httpd 2.2.8)
+   - RPC (rpcbind 2)
+   - NetBIOS (Samba smbd 3.X - 4.X)
+   - Exec (netkit-rsh rexecd)
+   - Java RMI (GNU Classpath grmiregistry)
+   - Bind Shell (Metasploitable root shell)
+   - NFS (2-4)
+   - FTP (ProFTPD 1.3.1)
+   - MySQL (MySQL 5.0.51a)
+   - PostgreSQL (PostgreSQL 8.3.0 - 8.3.7)
+   - VNC (protocol 3.3)
+   - X11 (access denied)
+   - IRC (UnrealIRCd)
+   - AJP (Apache Jserv Protocol v1.3)
+   - HTTP (Apache Tomcat/Coyote JSP engine 1.1)
 
 <img src="img/img2.jpg">
 
 Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
-<a href="https://www.exploit-db.com/exploits/49757">vsftpd 2.3.4 - Backdoor Command Execution</a>
-<a href="https://www.exploit-db.com/exploits/6122">BIND 9.4.1 < 9.4.2 - Remote DNS Cache Poisoning (Metasploit)</a>
-<a href="https://www.exploit-db.com/exploits/41974">RPCBind / libtirpc - Denial of Service</a>
+
+- [vsftpd 2.3.4 - Backdoor Command Execution](https://www.exploit-db.com/exploits/49757)
+
+- [BIND 9.4.1 < 9.4.2 - Remote DNS Cache Poisoning (Metasploit)](https://www.exploit-db.com/exploits/6122)
+
+- [RPCBind / libtirpc - Denial of Service](https://www.exploit-db.com/exploits/41974)
+
 
 ---
 
